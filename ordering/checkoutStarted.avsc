@@ -7,8 +7,8 @@
     "name" : "order_id",
     "type" : "string",
     "doc" : "Contains the order ID or transaction ID, whichever is applicable",
-    "is_pii" : "false",
-    "is_classified" : "false",
+    "is_pii" : "true",
+    "is_classified" : "true",
     "deprecated" : "false"
   }, {
     "name" : "affiliation",
@@ -183,5 +183,6 @@
   "channel" : "slack",
   "domain" : "Entry",
   "status" : "Active",
-  "subscribers" : [ "Marketing Team", "Sales Team" ]
+  "subscribers" : [ "Marketing Team", "Sales Team" ],
+  "quality_rule_base" : "(1 = 1)"
 }
