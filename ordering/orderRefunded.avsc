@@ -22,7 +22,5 @@
   "schema_type" : "UNKNOWN",
   "domain" : "Core",
   "status" : "Active",
-  "subscribers" : [ "Sales Team" ],
-  "quality_rule_sql" : "{\"sql\":\"(order_id >= :order_id_1)\",\"params\":{\"order_id_1\":\"-1\"}}",
-  "quality_rule_cel" : "order_id >= \"-1\""
+  "subscribers" : [ "Sales Team" ]
 }
