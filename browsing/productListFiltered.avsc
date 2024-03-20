@@ -40,8 +40,12 @@
           "is_classified" : "false",
           "deprecated" : "false"
         } ],
+        "owner" : "Core",
         "schema_type" : "UNKNOWN",
-        "status" : "Active"
+        "domain" : "#team_filter",
+        "status" : "Active",
+        "subscribers" : [ "Sales Team" ],
+        "quality_rule_base" : "(1 = 1)"
       }
     },
     "doc" : "Contain the product filters that the customer has applied",
