@@ -28,7 +28,7 @@
     "name" : "revenue",
     "type" : "double",
     "doc" : "Contains the revenue associated with the transaction, excluding the shipping and tax details",
-    "is_pii" : "false",
+    "is_pii" : "true",
     "is_classified" : "false",
     "deprecated" : "false"
   }, {
@@ -183,5 +183,6 @@
   "channel" : "slack",
   "domain" : "Entry",
   "status" : "Active",
-  "subscribers" : [ "Marketing Team", "Sales Team" ]
+  "subscribers" : [ "Marketing Team", "Sales Team" ],
+  "quality_rule_base" : "(1 = 1)"
 }
