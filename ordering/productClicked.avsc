@@ -93,5 +93,5 @@
   "domain" : "Core",
   "status" : "Active",
   "subscribers" : [ "Marketing Team" ],
-  "quality_rule_base" : "(1 = 1)"
+  "quality_rule_base" : "(product_id != 'null')"
 }
