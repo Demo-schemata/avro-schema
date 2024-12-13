@@ -2,7 +2,7 @@
   "type" : "record",
   "name" : "order_cancelled",
   "namespace" : "org.amce.ecommerce.ordering",
-  "doc" : "This event is triggered whenever an order is canceled. The following properties are supported by this event",
+  "doc" : "This event is triggered whenever an order is canceled. This event supports the following properties changed",
   "fields" : [ {
     "name" : "order_id",
     "type" : "string",
@@ -175,6 +175,5 @@
   "schema_type" : "UNKNOWN",
   "domain" : "Core",
   "status" : "Active",
-  "quality_rule_sql" : "{\"sql\":\"(order_id not like :order_id_1 and (tax = :tax_1))\",\"params\":{\"order_id_1\":\"%2\",\"tax_1\":\"100\"}}",
-  "quality_rule_cel" : "!order_id.endsWith(\"2\") && (tax == \"100\")"
+  "quality_rule_base" : "(1 = 1)"
 }
