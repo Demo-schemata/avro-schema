@@ -87,6 +87,13 @@
     "is_pii" : "false",
     "is_classified" : "false",
     "deprecated" : "false"
+  }, {
+    "name" : "sample_url",
+    "type" : "string",
+    "doc" : "test to check pr",
+    "is_pii" : "false",
+    "is_classified" : "false",
+    "deprecated" : "false"
   } ],
   "owner" : "Ananth",
   "schema_type" : "UNKNOWN",
